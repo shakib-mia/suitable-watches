@@ -19,7 +19,6 @@ const Container = () => {
 
 
       const show = () => {
-            console.log(selection);
             if (selection.length > 0) {
                   return selection.length > 0 ? selection.map(item => <Selected name={item.name} price={item.price}></Selected>) : "No Items added"
             }
@@ -28,7 +27,6 @@ const Container = () => {
       const choose = () => {
             let length = selection.length;
             let num = Math.floor(Math.random() * length);
-            console.log(selection[num]);
             document.getElementById('selected').style.display = "block";
             document.getElementById('selected').innerHTML = `
             <img src=${selection[num].image} height="150px"/>
@@ -46,7 +44,7 @@ const Container = () => {
                         <div className="all-watches col-12 col-md-6 col-lg-8">
                               <div className="row">
                                     {watches.map(watch => <Card
-                                          key={watch.id}
+
                                           image={watch.image}
                                           name={watch.name}
                                           price={watch.price}

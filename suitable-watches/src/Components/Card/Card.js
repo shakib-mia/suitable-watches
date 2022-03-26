@@ -4,9 +4,8 @@ import React from 'react';
 
 
 const Card = (props, ref) => {
-      const { image, name, price } = props;
-      const { key } = ref;
-
+      const { image, name, price, key } = props;
+      console.log(ref)
 
       return (
             <div className='col-12 col-md-6 col-lg-4 my-3'>

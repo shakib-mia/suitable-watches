@@ -1,3 +1,4 @@
+import Answer from './Components/Answers/Answer';
 import Container from './Components/Container/Container';
 import Header from './Components/Header/Header';
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Container></Container>
+      <Answer></Answer>
     </div>
   );
 }
