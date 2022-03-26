@@ -3,14 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 
-const Card = (props) => {
+const Card = (props, ref) => {
+      const { image, name, price } = props;
+      const { key } = ref;
+
+
       return (
-            <div className='col-4 my-3'>
+            <div className='col-12 col-md-6 col-lg-4 my-3'>
                   <div className="card">
-                        <img src={props.image} className="card-img-top" height={150} alt={"Blank_Image"} />
+                        <img src={image} className="card-img-top" height={150} alt={"Blank_Image"} />
                         <div className="card-body">
-                              <h5 className="card-title">{props.name}</h5>
-                              <h6>${props.price}</h6>
+                              <p>{key}</p>
+                              <h5 className="card-title">{name}</h5>
+                              <h6>${price}</h6>
                               <button className="btn btn-primary" onClick={() => props.handleClick(props)}>Select This <FontAwesomeIcon icon={faHeart} /></button>
                         </div>
                   </div>
