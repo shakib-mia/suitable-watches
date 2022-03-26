@@ -1,0 +1,56 @@
+[
+      {
+            "id": "GA110",
+            "name": "Casio",
+            "price": 100,
+            "image": "https://images.unsplash.com/photo-1623998021661-dc7555b2213d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFuZCUyMGNsb2NrfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA111",
+            "name": "Casio",
+            "price": 100,
+            "image": "https://images.unsplash.com/photo-1541778480-fc1752bbc2a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80"
+      },
+      {
+            "id": "GA112",
+            "name": "Casio",
+            "price": 100,
+            "image": "https://images.unsplash.com/photo-1584613862210-af0d37109e7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZCUyMGNsb2NrfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA113",
+            "name": "Casio",
+            "price": 100,
+            "image": "https://images.unsplash.com/photo-1614799269239-ad1ebd42a1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFuZCUyMGNsb2NrfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA114",
+            "name": "Casio",
+            "price": 150,
+            "image": "https://images.unsplash.com/photo-1608766648396-85f44d166dac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhhbmQlMjBjbG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA115",
+            "name": "Casio",
+            "price": 100,
+            "image": "https://images.unsplash.com/photo-1528595343328-b96a6cdf6e42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGhhbmQlMjBjbG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA116",
+            "name": "Casio",
+            "price": 250,
+            "image": "https://images.unsplash.com/photo-1518985611343-5984f58534a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhhbmQlMjBjbG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA117",
+            "name": "Casio",
+            "price": 300,
+            "image": "https://images.unsplash.com/photo-1637610923610-e79447a865e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGhhbmQlMjBjbG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+            "id": "GA118",
+            "name": "Casio",
+            "price": 500,
+            "image": "https://images.unsplash.com/photo-1463820048975-a3b50e6d991d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhhbmQlMjBjbG9ja3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+      }
+]
