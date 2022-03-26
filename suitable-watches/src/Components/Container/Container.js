@@ -20,7 +20,7 @@ const Container = () => {
 
       const show = () => {
             if (selection.length > 0) {
-                  return selection.length > 0 ? selection.map(item => <Selected name={item.name} key={item.id} price={item.price}></Selected>) : "No Items added"
+                  return selection.map(item => <Selected name={item.name} key={item.id} price={item.price}></Selected>)
             }
       }
 
@@ -57,7 +57,6 @@ const Container = () => {
                                     {
                                           show()
                                     }
-
                               </div>
                               <div className='btn-group'>
                                     <button className='btn btn-success' onClick={choose}>Choose one for me</button>

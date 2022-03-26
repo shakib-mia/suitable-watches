@@ -11,7 +11,6 @@ const Card = (props) => {
                   <div className="card">
                         <img src={image} className="card-img-top" height={150} alt={"Blank_Image"} />
                         <div className="card-body">
-                              <p>{id}</p>
                               <h5 className="card-title">{name}</h5>
                               <h6>${price}</h6>
                               <button className="btn btn-primary" onClick={() => props.handleClick(props)}>Select This <FontAwesomeIcon icon={faHeart} /></button>
