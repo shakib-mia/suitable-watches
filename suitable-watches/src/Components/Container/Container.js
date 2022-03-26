@@ -29,10 +29,15 @@ const Container = () => {
             let length = selection.length;
             let num = Math.floor(Math.random() * length);
             console.log(selection[num]);
+            document.getElementById('selected').style.display = "block";
             document.getElementById('selected').innerHTML = `
             <img src=${selection[num].image} height="150px"/>
             <h1>${selection[num].name}</h1>
             `
+      }
+
+      const remove = () => {
+            document.getElementById('selected').innerHTML = "";
       }
 
       return (
@@ -49,11 +54,17 @@ const Container = () => {
                                     ></Card>)}
                               </div>
                         </div>
-                        <div className="selected-watches col-12 col-md-6 col-lg-4" id='selected'>
-                              {
-                                    show()
-                              }
-                              <button className='btn btn-success' onClick={choose}>Choose one for me</button>
+                        <div className="selected-watches col-12 col-md-6 col-lg-4">
+                              <div id="selected">
+                                    {
+                                          show()
+                                    }
+
+                              </div>
+                              <div className='btn-group'>
+                                    <button className='btn btn-success' onClick={choose}>Choose one for me</button>
+                                    <button className='btn btn-danger' onClick={remove}>Choose Again</button>
+                              </div>
                         </div>
                   </div>
             </div>
