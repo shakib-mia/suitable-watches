@@ -3,7 +3,6 @@ import Card from './Card/Card';
 import Data from '../../Data/Data.json'
 
 const Watches = () => {
-      console.log(Data)
       return (
             <div className='row'>
                   {
