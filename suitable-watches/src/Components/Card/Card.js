@@ -1,3 +1,5 @@
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 
@@ -9,7 +11,7 @@ const Card = (props) => {
                         <div className="card-body">
                               <h5 className="card-title">{props.name}</h5>
                               <h6>${props.price}</h6>
-                              <button className="btn btn-primary" onClick={() => props.handleClick(props)}>Select This</button>
+                              <button className="btn btn-primary" onClick={() => props.handleClick(props)}>Select This <FontAwesomeIcon icon={faHeart} /></button>
                         </div>
                   </div>
             </div>

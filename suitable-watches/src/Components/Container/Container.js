@@ -35,6 +35,7 @@ const Container = () => {
                         <div className="selected-watches col-12 col-md-6 col-lg-4">
                               <Selected></Selected>
                               <p>{selection.length}</p>
+
                         </div>
                   </div>
             </div>
