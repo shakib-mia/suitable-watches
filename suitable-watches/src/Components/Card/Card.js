@@ -4,7 +4,7 @@ import React from 'react';
 
 
 const Card = (props) => {
-      const { image, name, price, id } = props;
+      const { image, name, price } = props;
 
       return (
             <div className='col-12 col-md-6 col-lg-4 my-3'>
