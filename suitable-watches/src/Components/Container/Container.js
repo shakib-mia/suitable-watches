@@ -20,7 +20,7 @@ const Container = () => {
 
       const show = () => {
             if (selection.length > 0) {
-                  return selection.length > 0 ? selection.map(item => <Selected name={item.name} price={item.price}></Selected>) : "No Items added"
+                  return selection.length > 0 ? selection.map(item => <Selected name={item.name} key={item.id} price={item.price}></Selected>) : "No Items added"
             }
       }
 
@@ -44,7 +44,7 @@ const Container = () => {
                         <div className="all-watches col-12 col-md-6 col-lg-8">
                               <div className="row">
                                     {watches.map(watch => <Card
-
+                                          key={watch.id}
                                           image={watch.image}
                                           name={watch.name}
                                           price={watch.price}
